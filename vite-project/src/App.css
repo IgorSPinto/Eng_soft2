@@ -1,0 +1,116 @@
+/* Estilo global para o corpo da página */
+body {
+  font-family: 'Exo', sans-serif;
+  background-color: #e0e0e0;
+  padding: 3%;
+  color:#333;
+  background-image: linear-gradient(90deg, #0A5128 0%, #09793f 35%, #00C884 100%);
+  background-position: center;
+  background-size: cover;
+}
+
+/* Estilo para o contêiner principal da aplicação */
+.app{
+  max-width: 600px;
+  margin: 0 auto 300px;
+  background-color: #e0e0e0;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para o título principal da aplicação */
+h1 {
+  text-align: center;
+  color: #0A5128;
+}
+
+/* Estilo para títulos secundários */
+h2 {
+  margin-bottom: 10px;
+  color: #09793f;
+}
+
+/* Estilo para parágrafos */
+p {
+  margin: 10px 0;
+}
+
+/* Estilo para caixas de entrada de texto */
+input {
+  box-sizing: border-box;
+}
+
+/* Estilo para botões padrão */
+button {
+  background-color: #09793f;
+  color: #fff;
+  padding: 6px 12px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  opacity: 0.9;
+  transition: 0.3s;
+}
+
+button:hover {
+  opacity: 1;
+  transform: scale(1.05); /* Efeito de escala suave no hover */
+}
+
+/* Estilo para a lista de tarefas */
+.todo-list {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+  
+}
+
+/* Estilo para cada tarefa na lista */
+.todo {
+  background-color: #e0e0e0;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.complete {
+  background-color: #f9f9f9; /* Fundo branco */
+  color: #09793f; /* Verde médio para texto */
+  border: 1px solid #09793f; /* Borda verde médio */
+}
+
+.delete {
+  background-color: #f9f9f9; /* Fundo branco */
+  color: #D6605C; /* Vermelho escuro para texto */
+  border: 1px solid #D6605C; /* Borda vermelha escura */
+}
+
+.edit {
+  background-color: #f4f4f4; /* Fundo um pouco mais escuro */
+  color: #0A5128; /* Verde mais escuro */
+  border: 1px solid #0A5128; /* Borda verde mais escura */
+}
+
+/* Estilo para o formulário de adição de tarefas */
+.todo-form{
+  padding-bottom: 1.5rem;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+input, select {
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc; /* Borda mais clara */
+  border-radius: 3px;
+  width: 100%;
+  background-color: #f9f9f9; /* Fundo branco */
+  color: #333; /* Texto mais escuro */
+}
